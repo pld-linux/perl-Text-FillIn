@@ -24,7 +24,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Text::FillIn module provides a class for doing fill-in templates.
 
 %description -l pl
-Modu³ Text::FillIn udospêpnia klasê do tworzenia szablonów z polami "do
+Modu³ Text::FillIn udostêpnia klasê do tworzenia szablonów z polami "do
 wype³nienia".
 
 %prep
