@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	FillIn
-Summary:	Text-FillIn perl module
-Summary(pl):	Modu³ perla Text-FillIn
+Summary:	Text::FillIn perl module
+Summary(pl):	Modu³ perla Text::FillIn
 Name:		perl-Text-FillIn
 Version:	0.05
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Text-FillIn module provides a class for doing fill-in templates.
+Text::FillIn module provides a class for doing fill-in templates.
 
 %description -l pl
-Modu³ Text-FillIn udospêpnia klasê do tworzenia szablonów z polami "do
+Modu³ Text::FillIn udospêpnia klasê do tworzenia szablonów z polami "do
 wype³nienia".
 
 %prep
