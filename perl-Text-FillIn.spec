@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Text
-%define	pnam	FillIn
+%define		pdir	Text
+%define		pnam	FillIn
 Summary:	Text::FillIn perl module
 Summary(pl):	Modu³ perla Text::FillIn
 Name:		perl-Text-FillIn
