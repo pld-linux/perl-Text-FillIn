@@ -9,7 +9,7 @@ Summary:	Text::FillIn perl module
 Summary(pl):	Modu³ perla Text::FillIn
 Name:		perl-Text-FillIn
 Version:	0.05
-Release:	9
+Release:	10
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
