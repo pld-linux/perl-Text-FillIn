@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	FillIn
 Summary:	Text::FillIn perl module
-Summary(pl):	Modu³ perla Text::FillIn
+Summary(pl.UTF-8):   ModuÅ‚ perla Text::FillIn
 Name:		perl-Text-FillIn
 Version:	0.05
 Release:	10
@@ -23,9 +23,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Text::FillIn module provides a class for doing fill-in templates.
 
-%description -l pl
-Modu³ Text::FillIn udostêpnia klasê do tworzenia szablonów z polami "do
-wype³nienia".
+%description -l pl.UTF-8
+ModuÅ‚ Text::FillIn udostÄ™pnia klasÄ™ do tworzenia szablonÃ³w z polami "do
+wypeÅ‚nienia".
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
