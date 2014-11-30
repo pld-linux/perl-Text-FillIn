@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Text
 %define		pnam	FillIn
+%include	/usr/lib/rpm/macros.perl
 Summary:	Text::FillIn perl module
 Summary(pl.UTF-8):	Moduł perla Text::FillIn
 Name:		perl-Text-FillIn
@@ -15,8 +15,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	23d1cfcc132ac15d19c560be53c4f831
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/Text-FillIn/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -24,8 +25,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Text::FillIn module provides a class for doing fill-in templates.
 
 %description -l pl.UTF-8
-Moduł Text::FillIn udostępnia klasę do tworzenia szablonów z polami "do
-wypełnienia".
+Moduł Text::FillIn udostępnia klasę do tworzenia szablonów z polami
+"do wypełnienia".
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
