@@ -4,7 +4,6 @@
 
 %define		pdir	Text
 %define		pnam	FillIn
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text::FillIn perl module
 Summary(pl.UTF-8):	Moduł perla Text::FillIn
 Name:		perl-Text-FillIn
